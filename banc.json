@@ -1,0 +1,62 @@
+{
+	"credit": "Banc en bois simple",
+	"textures": {
+		"planks": "minecraft:block/oak_planks",
+		"log": "minecraft:block/stripped_oak_log",
+		"particle": "minecraft:block/oak_planks"
+	},
+	"elements": [
+		{
+			"name": "assise",
+			"from": [0, 7, 4],
+			"to": [16, 9, 12],
+			"faces": {
+				"north": {"uv": [0, 7, 16, 9], "texture": "#planks"},
+				"east": {"uv": [4, 7, 12, 9], "texture": "#planks"},
+				"south": {"uv": [0, 7, 16, 9], "texture": "#planks"},
+				"west": {"uv": [4, 7, 12, 9], "texture": "#planks"},
+				"up": {"uv": [0, 4, 16, 12], "texture": "#planks"},
+				"down": {"uv": [0, 4, 16, 12], "texture": "#planks"}
+			}
+		},
+		{
+			"name": "pied_gauche",
+			"from": [1, 0, 5],
+			"to": [3, 7, 11],
+			"faces": {
+				"north": {"uv": [1, 9, 3, 16], "texture": "#log"},
+				"east": {"uv": [5, 9, 11, 16], "texture": "#log"},
+				"south": {"uv": [1, 9, 3, 16], "texture": "#log"},
+				"west": {"uv": [5, 9, 11, 16], "texture": "#log"},
+				"down": {"uv": [1, 5, 3, 11], "texture": "#log"}
+			}
+		},
+		{
+			"name": "pied_droit",
+			"from": [13, 0, 5],
+			"to": [15, 7, 11],
+			"faces": {
+				"north": {"uv": [13, 9, 15, 16], "texture": "#log"},
+				"east": {"uv": [5, 9, 11, 16], "texture": "#log"},
+				"south": {"uv": [13, 9, 15, 16], "texture": "#log"},
+				"west": {"uv": [5, 9, 11, 16], "texture": "#log"},
+				"down": {"uv": [13, 5, 15, 11], "texture": "#log"}
+			}
+		},
+		{
+			"name": "traverse",
+			"from": [3, 2, 7],
+			"to": [13, 4, 9],
+			"faces": {
+				"north": {"uv": [3, 12, 13, 14], "texture": "#planks"},
+				"south": {"uv": [3, 12, 13, 14], "texture": "#planks"},
+				"up": {"uv": [3, 7, 13, 9], "texture": "#planks"},
+				"down": {"uv": [3, 7, 13, 9], "texture": "#planks"}
+			}
+		}
+	],
+	"display": {
+		"gui": {"rotation": [30, 225, 0], "scale": [0.7, 0.7, 0.7]},
+		"fixed": {"scale": [0.7, 0.7, 0.7]}
+	}
+}
